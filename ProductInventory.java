@@ -5,7 +5,6 @@ public class ProductInventory {
 
         Scanner sc = new Scanner(System.in);
 
-        // Taking user input for first product
         System.out.println("Enter Product Name : ");
         String productName1 = sc.nextLine();
 
@@ -16,7 +15,6 @@ public class ProductInventory {
         // Creating first Product object
         Product product1 = new Product(productName1, price1);
 
-        // Taking user input for second product
         System.out.println("\nEnter Product Name : ");
         String productName2 = sc.nextLine();
 
