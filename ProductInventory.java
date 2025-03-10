@@ -32,6 +32,7 @@ public class ProductInventory {
         // Displaying total number of products created
         Product.displayTotalProducts();
 
+
         sc.close();
     }
 }
